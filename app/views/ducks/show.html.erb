@@ -2,3 +2,6 @@
 
 <h1> <%= @duck.description %> </h1>
 
+
+
+<p>MY STUDENT: <%= link_to @duck.student.name, student_path(@duck.student) %></p>
